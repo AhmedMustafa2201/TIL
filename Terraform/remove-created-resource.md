@@ -1,0 +1,1 @@
+to remove a created resource using state file https://jhooq.com/terraform-remove-resource-from-state/
