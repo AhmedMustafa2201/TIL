@@ -27,18 +27,18 @@ display_categories
 
 # Ask for category number or to create a new one
 while [[ -z "$selected_category" ]]; do
-    echo -n "Enter the number of the category or type 'new' to create a new one: "
+    echo -n "Enter the number of the category or type 'n' to create a new one: "
     read selected_category
     if [[ -z "$selected_category" ]]; then
         echo "Please enter something."
     fi
 done
 
-if [[ "$selected_category" == "new" ]]; then
+if [[ "$selected_category" == "n" ]]; then
     create_category
     display_categories
     echo -n "Enter the number of the newly created category: "
-    read -n 1 selected_category
+    read selected_category
 fi
 
 # Get the selected category name

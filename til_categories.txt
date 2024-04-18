@@ -3,3 +3,6 @@ Terraform
 Docker
 AWS
 React
+Vite
+Bash
+GitHub Actions
