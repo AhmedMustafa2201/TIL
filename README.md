@@ -15,3 +15,6 @@ Using public git repositories to store your tils enable you to share your tils w
 ## How to start?
 - you can run `./create_empty_md_file.sh` file and complete the simple wizard.
 - after finalizing the wizard, you'll have a new `md` file with the name of what you've learnt
+
+> [!WARNING]
+> Please be careful with your `til_categories.txt` file as it build the file paths and associate them with the appropriate folder
